@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_881a9613cb9d485f91a71bc1ca2ee73d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_881a9613cb9d485f91a71bc1ca2ee73d" ></div>
+        
+</body>
+<script>    
+    
+            var map_881a9613cb9d485f91a71bc1ca2ee73d = L.map(
+                "map_881a9613cb9d485f91a71bc1ca2ee73d",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    Location: [-1.6538255, 119.1944534],
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_01ef34dd0bd24fe59f01c8ff5bc400c8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+            var marker_e055635faef241318fef4e586f440f7f = L.marker(
+                [4.695135, 96.7493993],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_a8e5892f0d954547a1697f08043287e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de52f7a02e114db7af7a7851052acec2 = $(`<div id="html_de52f7a02e114db7af7a7851052acec2" style="width: 100.0%; height: 100.0%;">Confirmed    5 Recovered    0 Deaths       0 Name: 0, dtype: object</div>`)[0];
+            popup_a8e5892f0d954547a1697f08043287e5.setContent(html_de52f7a02e114db7af7a7851052acec2);
+        
+
+        marker_e055635faef241318fef4e586f440f7f.bindPopup(popup_a8e5892f0d954547a1697f08043287e5)
+        ;
+
+        
+    
+    
+            marker_e055635faef241318fef4e586f440f7f.bindTooltip(
+                `<div>
+                     Provinsi    Aceh
+Name: 0, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_050760b148f544d79a74f6de0e553fff = L.marker(
+                [-8.4095178, 115.188916],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_dd6991ab53214dcca12da9fe2998d0eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_172fe0ac49c54ccfa92c14d5625560d7 = $(`<div id="html_172fe0ac49c54ccfa92c14d5625560d7" style="width: 100.0%; height: 100.0%;">Confirmed    19 Recovered     0 Deaths        2 Name: 1, dtype: object</div>`)[0];
+            popup_dd6991ab53214dcca12da9fe2998d0eb.setContent(html_172fe0ac49c54ccfa92c14d5625560d7);
+        
+
+        marker_050760b148f544d79a74f6de0e553fff.bindPopup(popup_dd6991ab53214dcca12da9fe2998d0eb)
+        ;
+
+        
+    
+    
+            marker_050760b148f544d79a74f6de0e553fff.bindTooltip(
+                `<div>
+                     Provinsi    Bali
+Name: 1, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfca9443bb334b678cce22dcdb5093c9 = L.marker(
+                [-2.7410513, 106.4405872],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_0acb8fa014b34e37849418d70a5341c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9acd0f0dd5d64dc8a226c01ec0faf6d5 = $(`<div id="html_9acd0f0dd5d64dc8a226c01ec0faf6d5" style="width: 100.0%; height: 100.0%;">Confirmed    1 Recovered    0 Deaths       0 Name: 2, dtype: object</div>`)[0];
+            popup_0acb8fa014b34e37849418d70a5341c0.setContent(html_9acd0f0dd5d64dc8a226c01ec0faf6d5);
+        
+
+        marker_cfca9443bb334b678cce22dcdb5093c9.bindPopup(popup_0acb8fa014b34e37849418d70a5341c0)
+        ;
+
+        
+    
+    
+            marker_cfca9443bb334b678cce22dcdb5093c9.bindTooltip(
+                `<div>
+                     Provinsi    Bangka Belitung
+Name: 2, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_023830c8daf74e63aa8dcb146d700991 = L.marker(
+                [-6.4058171999999995, 106.0640179],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_9f3d6a5d5f31439b82219ad9b3a605c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_839ec0ba33434308be9d09d2d1e3f012 = $(`<div id="html_839ec0ba33434308be9d09d2d1e3f012" style="width: 100.0%; height: 100.0%;">Confirmed    128 Recovered      1 Deaths         4 Name: 3, dtype: object</div>`)[0];
+            popup_9f3d6a5d5f31439b82219ad9b3a605c0.setContent(html_839ec0ba33434308be9d09d2d1e3f012);
+        
+
+        marker_023830c8daf74e63aa8dcb146d700991.bindPopup(popup_9f3d6a5d5f31439b82219ad9b3a605c0)
+        ;
+
+        
+    
+    
+            marker_023830c8daf74e63aa8dcb146d700991.bindTooltip(
+                `<div>
+                     Provinsi    Banten
+Name: 3, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f58f2e8177b647af893b1dc3eb07ea79 = L.marker(
+                [-3.5778471, 102.3463875],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_19438913716c4401aa09c28da7cf81fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3e92018b79d46218f21346118ae04ba = $(`<div id="html_f3e92018b79d46218f21346118ae04ba" style="width: 100.0%; height: 100.0%;">Confirmed    0 Recovered    0 Deaths       0 Name: 4, dtype: object</div>`)[0];
+            popup_19438913716c4401aa09c28da7cf81fd.setContent(html_f3e92018b79d46218f21346118ae04ba);
+        
+
+        marker_f58f2e8177b647af893b1dc3eb07ea79.bindPopup(popup_19438913716c4401aa09c28da7cf81fd)
+        ;
+
+        
+    
+    
+            marker_f58f2e8177b647af893b1dc3eb07ea79.bindTooltip(
+                `<div>
+                     Provinsi    Bengkulu
+Name: 4, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf87bdd09c6247f8bc464e32c75dcabf = L.marker(
+                [-7.150975, 110.1402594],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_fb6df800d83544aca1835db20387e926 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6776fc4c7a13411d990b1ec455e9fcb9 = $(`<div id="html_6776fc4c7a13411d990b1ec455e9fcb9" style="width: 100.0%; height: 100.0%;">Confirmed    81 Recovered     0 Deaths        7 Name: 5, dtype: object</div>`)[0];
+            popup_fb6df800d83544aca1835db20387e926.setContent(html_6776fc4c7a13411d990b1ec455e9fcb9);
+        
+
+        marker_cf87bdd09c6247f8bc464e32c75dcabf.bindPopup(popup_fb6df800d83544aca1835db20387e926)
+        ;
+
+        
+    
+    
+            marker_cf87bdd09c6247f8bc464e32c75dcabf.bindTooltip(
+                `<div>
+                     Provinsi    Central Java
+Name: 5, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16653327ac804c58bf9e93b9f3f4a00a = L.marker(
+                [-1.6814878, 113.3823545],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_c43b33deb760429a90b79833360dea97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f5e72e32661423bba5bdeae35e01ea2 = $(`<div id="html_0f5e72e32661423bba5bdeae35e01ea2" style="width: 100.0%; height: 100.0%;">Confirmed    7 Recovered    0 Deaths       0 Name: 6, dtype: object</div>`)[0];
+            popup_c43b33deb760429a90b79833360dea97.setContent(html_0f5e72e32661423bba5bdeae35e01ea2);
+        
+
+        marker_16653327ac804c58bf9e93b9f3f4a00a.bindPopup(popup_c43b33deb760429a90b79833360dea97)
+        ;
+
+        
+    
+    
+            marker_16653327ac804c58bf9e93b9f3f4a00a.bindTooltip(
+                `<div>
+                     Provinsi    Central Kalimantan
+Name: 6, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28f51698e3664a8eb3688115197401ed = L.marker(
+                [-1.4300254, 121.4456179],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_ea293fa9e4504beea87e6a9fe9a74e54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_503539bb09564ae6afc59b62725f415d = $(`<div id="html_503539bb09564ae6afc59b62725f415d" style="width: 100.0%; height: 100.0%;">Confirmed    3 Recovered    0 Deaths       0 Name: 7, dtype: object</div>`)[0];
+            popup_ea293fa9e4504beea87e6a9fe9a74e54.setContent(html_503539bb09564ae6afc59b62725f415d);
+        
+
+        marker_28f51698e3664a8eb3688115197401ed.bindPopup(popup_ea293fa9e4504beea87e6a9fe9a74e54)
+        ;
+
+        
+    
+    
+            marker_28f51698e3664a8eb3688115197401ed.bindTooltip(
+                `<div>
+                     Provinsi    Central Sulawesi
+Name: 7, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00cd1f9536ef4653ada56583fef6b718 = L.marker(
+                [-7.5360639, 112.2384017],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_37440d3abfe84a5fbdeeb3fd39964460 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f769a63a2cd241a99ab6e0575f84bb8a = $(`<div id="html_f769a63a2cd241a99ab6e0575f84bb8a" style="width: 100.0%; height: 100.0%;">Confirmed    91 Recovered    16 Deaths        8 Name: 8, dtype: object</div>`)[0];
+            popup_37440d3abfe84a5fbdeeb3fd39964460.setContent(html_f769a63a2cd241a99ab6e0575f84bb8a);
+        
+
+        marker_00cd1f9536ef4653ada56583fef6b718.bindPopup(popup_37440d3abfe84a5fbdeeb3fd39964460)
+        ;
+
+        
+    
+    
+            marker_00cd1f9536ef4653ada56583fef6b718.bindTooltip(
+                `<div>
+                     Provinsi    East Java
+Name: 8, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c99d1c5e2f046a898c00c085c415152 = L.marker(
+                [1.6406296, 116.419389],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_a20b3d86167048cc80e09a9246b9e51a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0bd4aef5c094ef795510722a51ba1f4 = $(`<div id="html_b0bd4aef5c094ef795510722a51ba1f4" style="width: 100.0%; height: 100.0%;">Confirmed    17 Recovered     0 Deaths        0 Name: 9, dtype: object</div>`)[0];
+            popup_a20b3d86167048cc80e09a9246b9e51a.setContent(html_b0bd4aef5c094ef795510722a51ba1f4);
+        
+
+        marker_2c99d1c5e2f046a898c00c085c415152.bindPopup(popup_a20b3d86167048cc80e09a9246b9e51a)
+        ;
+
+        
+    
+    
+            marker_2c99d1c5e2f046a898c00c085c415152.bindTooltip(
+                `<div>
+                     Provinsi    East Kalimantan
+Name: 9, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93c6cb92e7e047119c0733b36211546c = L.marker(
+                [-8.6573819, 121.0793705],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_ecc1545d3a644d64bf365237a0201a85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_286682fe2e314f0591b58d518bdd2c89 = $(`<div id="html_286682fe2e314f0591b58d518bdd2c89" style="width: 100.0%; height: 100.0%;">Confirmed    0 Recovered    0 Deaths       0 Name: 10, dtype: object</div>`)[0];
+            popup_ecc1545d3a644d64bf365237a0201a85.setContent(html_286682fe2e314f0591b58d518bdd2c89);
+        
+
+        marker_93c6cb92e7e047119c0733b36211546c.bindPopup(popup_ecc1545d3a644d64bf365237a0201a85)
+        ;
+
+        
+    
+    
+            marker_93c6cb92e7e047119c0733b36211546c.bindTooltip(
+                `<div>
+                     Provinsi    East Nusa Tenggara
+Name: 10, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c31c8c6337a84638bacb0d5f1701e452 = L.marker(
+                [0.6999371999999999, 122.4467238],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_0e14f872bdee4af8b0e379ffc322a5e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fc361fe8b0e4b24bc407b533b85e9e6 = $(`<div id="html_0fc361fe8b0e4b24bc407b533b85e9e6" style="width: 100.0%; height: 100.0%;">Confirmed    0 Recovered    0 Deaths       0 Name: 11, dtype: object</div>`)[0];
+            popup_0e14f872bdee4af8b0e379ffc322a5e2.setContent(html_0fc361fe8b0e4b24bc407b533b85e9e6);
+        
+
+        marker_c31c8c6337a84638bacb0d5f1701e452.bindPopup(popup_0e14f872bdee4af8b0e379ffc322a5e2)
+        ;
+
+        
+    
+    
+            marker_c31c8c6337a84638bacb0d5f1701e452.bindTooltip(
+                `<div>
+                     Provinsi    Gorontalo
+Name: 11, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7688bbc385e4b58a5fb5508774d1089 = L.marker(
+                [-6.211544, 106.845172],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_e1e4e2625e6f44deabe6454206d4561e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_195430e3099147e2839c66b8fad067a6 = $(`<div id="html_195430e3099147e2839c66b8fad067a6" style="width: 100.0%; height: 100.0%;">Confirmed    698 Recovered     48 Deaths        74 Name: 12, dtype: object</div>`)[0];
+            popup_e1e4e2625e6f44deabe6454206d4561e.setContent(html_195430e3099147e2839c66b8fad067a6);
+        
+
+        marker_f7688bbc385e4b58a5fb5508774d1089.bindPopup(popup_e1e4e2625e6f44deabe6454206d4561e)
+        ;
+
+        
+    
+    
+            marker_f7688bbc385e4b58a5fb5508774d1089.bindTooltip(
+                `<div>
+                     Provinsi    Jakarta
+Name: 12, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6d2110260b442a49511385b91d8d89e = L.marker(
+                [-1.4851831, 102.4380581],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_51ae9aeb3b764c5d9d5798b1cce7d309 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56ac8cc5d1e548f98bed313aa022eb62 = $(`<div id="html_56ac8cc5d1e548f98bed313aa022eb62" style="width: 100.0%; height: 100.0%;">Confirmed    2 Recovered    0 Deaths       0 Name: 13, dtype: object</div>`)[0];
+            popup_51ae9aeb3b764c5d9d5798b1cce7d309.setContent(html_56ac8cc5d1e548f98bed313aa022eb62);
+        
+
+        marker_a6d2110260b442a49511385b91d8d89e.bindPopup(popup_51ae9aeb3b764c5d9d5798b1cce7d309)
+        ;
+
+        
+    
+    
+            marker_a6d2110260b442a49511385b91d8d89e.bindTooltip(
+                `<div>
+                     Provinsi    Jambi
+Name: 13, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8782630dddb49ab83d377fe0cf1439d = L.marker(
+                [-4.5585849, 105.4068079],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_e602076c098b484b9b4efd5e94f1f6e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bcd4d3b506e4b069e984f39c6ce583c = $(`<div id="html_3bcd4d3b506e4b069e984f39c6ce583c" style="width: 100.0%; height: 100.0%;">Confirmed    4 Recovered    0 Deaths       0 Name: 14, dtype: object</div>`)[0];
+            popup_e602076c098b484b9b4efd5e94f1f6e5.setContent(html_3bcd4d3b506e4b069e984f39c6ce583c);
+        
+
+        marker_d8782630dddb49ab83d377fe0cf1439d.bindPopup(popup_e602076c098b484b9b4efd5e94f1f6e5)
+        ;
+
+        
+    
+    
+            marker_d8782630dddb49ab83d377fe0cf1439d.bindTooltip(
+                `<div>
+                     Provinsi    Lampung
+Name: 14, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a93bbef9c1044be8c26ba999a08f11f = L.marker(
+                [-3.2384616, 130.1452734],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_4843aaafdbde44c3a4bfcc2301a4ab0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2450942f71849bda2da53581909551c = $(`<div id="html_e2450942f71849bda2da53581909551c" style="width: 100.0%; height: 100.0%;">Confirmed    1 Recovered    0 Deaths       0 Name: 15, dtype: object</div>`)[0];
+            popup_4843aaafdbde44c3a4bfcc2301a4ab0a.setContent(html_e2450942f71849bda2da53581909551c);
+        
+
+        marker_6a93bbef9c1044be8c26ba999a08f11f.bindPopup(popup_4843aaafdbde44c3a4bfcc2301a4ab0a)
+        ;
+
+        
+    
+    
+            marker_6a93bbef9c1044be8c26ba999a08f11f.bindTooltip(
+                `<div>
+                     Provinsi    Maluku
+Name: 15, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fcf41f023a2b486297d9bfb0a55dc798 = L.marker(
+                [1.5709993, 127.8087693],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_30aabfbf9dfb45d4bcfea6597b87faf7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af67d2d44cba443baa1d8089866cba61 = $(`<div id="html_af67d2d44cba443baa1d8089866cba61" style="width: 100.0%; height: 100.0%;">Confirmed    1 Recovered    0 Deaths       0 Name: 16, dtype: object</div>`)[0];
+            popup_30aabfbf9dfb45d4bcfea6597b87faf7.setContent(html_af67d2d44cba443baa1d8089866cba61);
+        
+
+        marker_fcf41f023a2b486297d9bfb0a55dc798.bindPopup(popup_30aabfbf9dfb45d4bcfea6597b87faf7)
+        ;
+
+        
+    
+    
+            marker_fcf41f023a2b486297d9bfb0a55dc798.bindTooltip(
+                `<div>
+                     Provinsi    North Maluku
+Name: 16, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f288fa8c26774428acdc8a6723f98672 = L.marker(
+                [1.5802128, 114.0308546],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_2b18d704bd7046ae98bba432497ab4fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2249d5b903b4df29a077307de08c13a = $(`<div id="html_d2249d5b903b4df29a077307de08c13a" style="width: 100.0%; height: 100.0%;">Confirmed    2 Recovered    0 Deaths       0 Name: 17, dtype: object</div>`)[0];
+            popup_2b18d704bd7046ae98bba432497ab4fd.setContent(html_d2249d5b903b4df29a077307de08c13a);
+        
+
+        marker_f288fa8c26774428acdc8a6723f98672.bindPopup(popup_2b18d704bd7046ae98bba432497ab4fd)
+        ;
+
+        
+    
+    
+            marker_f288fa8c26774428acdc8a6723f98672.bindTooltip(
+                `<div>
+                     Provinsi    North Kalimantan
+Name: 17, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_806deb141dee4998bf3838471dc8eac6 = L.marker(
+                [0.6246932, 123.9750018],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_fb1da542207b4279b57ddae92c317b06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d806ad5f0504d4e801dae68354a57ec = $(`<div id="html_6d806ad5f0504d4e801dae68354a57ec" style="width: 100.0%; height: 100.0%;">Confirmed    2 Recovered    1 Deaths       0 Name: 18, dtype: object</div>`)[0];
+            popup_fb1da542207b4279b57ddae92c317b06.setContent(html_6d806ad5f0504d4e801dae68354a57ec);
+        
+
+        marker_806deb141dee4998bf3838471dc8eac6.bindPopup(popup_fb1da542207b4279b57ddae92c317b06)
+        ;
+
+        
+    
+    
+            marker_806deb141dee4998bf3838471dc8eac6.bindTooltip(
+                `<div>
+                     Provinsi    North Sulawesi
+Name: 18, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee6f982729f24fad81909aa7b3bb6f72 = L.marker(
+                [2.1153547, 99.5450974],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_8650cf7c67d6487ba041e960b4bb70cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d540f9e7a7374fd1a7bbe157038faf3f = $(`<div id="html_d540f9e7a7374fd1a7bbe157038faf3f" style="width: 100.0%; height: 100.0%;">Confirmed    13 Recovered     0 Deaths        1 Name: 19, dtype: object</div>`)[0];
+            popup_8650cf7c67d6487ba041e960b4bb70cb.setContent(html_d540f9e7a7374fd1a7bbe157038faf3f);
+        
+
+        marker_ee6f982729f24fad81909aa7b3bb6f72.bindPopup(popup_8650cf7c67d6487ba041e960b4bb70cb)
+        ;
+
+        
+    
+    
+            marker_ee6f982729f24fad81909aa7b3bb6f72.bindTooltip(
+                `<div>
+                     Provinsi    North Sumatera
+Name: 19, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62d967353e44423d9439674b41627638 = L.marker(
+                [-4.269928, 138.0803529],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_305d454392eb4b9d93cca997e5d461fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2db6a60dd31a41efa29170d8b4c00531 = $(`<div id="html_2db6a60dd31a41efa29170d8b4c00531" style="width: 100.0%; height: 100.0%;">Confirmed    9 Recovered    0 Deaths       0 Name: 20, dtype: object</div>`)[0];
+            popup_305d454392eb4b9d93cca997e5d461fd.setContent(html_2db6a60dd31a41efa29170d8b4c00531);
+        
+
+        marker_62d967353e44423d9439674b41627638.bindPopup(popup_305d454392eb4b9d93cca997e5d461fd)
+        ;
+
+        
+    
+    
+            marker_62d967353e44423d9439674b41627638.bindTooltip(
+                `<div>
+                     Provinsi    Papua
+Name: 20, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dde2acd359a47178539aa958cc1b8bf = L.marker(
+                [0.29334689999999997, 101.7068294],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_2cdf6e97f6424b2597958030a892b920 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93d894526aca4da886277be14bc680e6 = $(`<div id="html_93d894526aca4da886277be14bc680e6" style="width: 100.0%; height: 100.0%;">Confirmed    3 Recovered    0 Deaths       0 Name: 21, dtype: object</div>`)[0];
+            popup_2cdf6e97f6424b2597958030a892b920.setContent(html_93d894526aca4da886277be14bc680e6);
+        
+
+        marker_9dde2acd359a47178539aa958cc1b8bf.bindPopup(popup_2cdf6e97f6424b2597958030a892b920)
+        ;
+
+        
+    
+    
+            marker_9dde2acd359a47178539aa958cc1b8bf.bindTooltip(
+                `<div>
+                     Provinsi    Riau
+Name: 21, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2261a3173353461681bd0824b39f8b29 = L.marker(
+                [3.9456514, 108.1428669],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_e90ac617318144ccb48a82732cb72ed3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3b3fba9be21406c8adae596a47dbd5a = $(`<div id="html_e3b3fba9be21406c8adae596a47dbd5a" style="width: 100.0%; height: 100.0%;">Confirmed    6 Recovered    0 Deaths       1 Name: 22, dtype: object</div>`)[0];
+            popup_e90ac617318144ccb48a82732cb72ed3.setContent(html_e3b3fba9be21406c8adae596a47dbd5a);
+        
+
+        marker_2261a3173353461681bd0824b39f8b29.bindPopup(popup_e90ac617318144ccb48a82732cb72ed3)
+        ;
+
+        
+    
+    
+            marker_2261a3173353461681bd0824b39f8b29.bindTooltip(
+                `<div>
+                     Provinsi    Riau Islands
+Name: 22, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51538676c7bb430bb2e29b1275d5deb3 = L.marker(
+                [-3.0926415, 115.2837585],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_08472a916197434894a62a45a732571a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9db95189f9c4da09de5625d54ff68e3 = $(`<div id="html_d9db95189f9c4da09de5625d54ff68e3" style="width: 100.0%; height: 100.0%;">Confirmed    5 Recovered    0 Deaths       0 Name: 23, dtype: object</div>`)[0];
+            popup_08472a916197434894a62a45a732571a.setContent(html_d9db95189f9c4da09de5625d54ff68e3);
+        
+
+        marker_51538676c7bb430bb2e29b1275d5deb3.bindPopup(popup_08472a916197434894a62a45a732571a)
+        ;
+
+        
+    
+    
+            marker_51538676c7bb430bb2e29b1275d5deb3.bindTooltip(
+                `<div>
+                     Provinsi    South Kalimantan
+Name: 23, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1eae0ccb78a145abb535b784344b3f8d = L.marker(
+                [-3.6687994, 119.9740534],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_70e0cea0472a4fda9cb1c4ff9cea69e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fa9d9bef06c4ab88c43708f0ebc33b1 = $(`<div id="html_8fa9d9bef06c4ab88c43708f0ebc33b1" style="width: 100.0%; height: 100.0%;">Confirmed    50 Recovered     0 Deaths        1 Name: 24, dtype: object</div>`)[0];
+            popup_70e0cea0472a4fda9cb1c4ff9cea69e4.setContent(html_8fa9d9bef06c4ab88c43708f0ebc33b1);
+        
+
+        marker_1eae0ccb78a145abb535b784344b3f8d.bindPopup(popup_70e0cea0472a4fda9cb1c4ff9cea69e4)
+        ;
+
+        
+    
+    
+            marker_1eae0ccb78a145abb535b784344b3f8d.bindTooltip(
+                `<div>
+                     Provinsi    South Sulawesi
+Name: 24, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c136316e083f45e496aa90316ed1c813 = L.marker(
+                [-4.14491, 122.174605],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_ff8e3703f16a4670b576b31d3c16d594 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72a2498840bb4807b8550b923963ce0c = $(`<div id="html_72a2498840bb4807b8550b923963ce0c" style="width: 100.0%; height: 100.0%;">Confirmed    3 Recovered    0 Deaths       0 Name: 25, dtype: object</div>`)[0];
+            popup_ff8e3703f16a4670b576b31d3c16d594.setContent(html_72a2498840bb4807b8550b923963ce0c);
+        
+
+        marker_c136316e083f45e496aa90316ed1c813.bindPopup(popup_ff8e3703f16a4670b576b31d3c16d594)
+        ;
+
+        
+    
+    
+            marker_c136316e083f45e496aa90316ed1c813.bindTooltip(
+                `<div>
+                     Provinsi    Southeast Sulawesi
+Name: 25, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_875a09c8fcc244ea951f412da052f735 = L.marker(
+                [-3.3194374, 103.914399],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_3c4aa2e424a5404ba6a44a1f49b4989b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6718844cbe764497902c9c49c2c26300 = $(`<div id="html_6718844cbe764497902c9c49c2c26300" style="width: 100.0%; height: 100.0%;">Confirmed    2 Recovered    0 Deaths       2 Name: 26, dtype: object</div>`)[0];
+            popup_3c4aa2e424a5404ba6a44a1f49b4989b.setContent(html_6718844cbe764497902c9c49c2c26300);
+        
+
+        marker_875a09c8fcc244ea951f412da052f735.bindPopup(popup_3c4aa2e424a5404ba6a44a1f49b4989b)
+        ;
+
+        
+    
+    
+            marker_875a09c8fcc244ea951f412da052f735.bindTooltip(
+                `<div>
+                     Provinsi    South Sumatera
+Name: 26, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b133993829ea411d9dd1fb40e8dcd09d = L.marker(
+                [-7.090911, 107.668887],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_11a3d336cb214f01b3977b528d09ffed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0440ee29f4d04837a7d860a9e035df68 = $(`<div id="html_0440ee29f4d04837a7d860a9e035df68" style="width: 100.0%; height: 100.0%;">Confirmed    180 Recovered      8 Deaths        20 Name: 27, dtype: object</div>`)[0];
+            popup_11a3d336cb214f01b3977b528d09ffed.setContent(html_0440ee29f4d04837a7d860a9e035df68);
+        
+
+        marker_b133993829ea411d9dd1fb40e8dcd09d.bindPopup(popup_11a3d336cb214f01b3977b528d09ffed)
+        ;
+
+        
+    
+    
+            marker_b133993829ea411d9dd1fb40e8dcd09d.bindTooltip(
+                `<div>
+                     Provinsi    West Java
+Name: 27, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f77e6f9ecf694182adadf1d27b98bb86 = L.marker(
+                [-0.2787808, 111.4752851],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_cbeabba83dd24fdd9b3c754c85970c43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5901d5124a684ccfbb2921bd88340af5 = $(`<div id="html_5901d5124a684ccfbb2921bd88340af5" style="width: 100.0%; height: 100.0%;">Confirmed    7 Recovered    0 Deaths       0 Name: 28, dtype: object</div>`)[0];
+            popup_cbeabba83dd24fdd9b3c754c85970c43.setContent(html_5901d5124a684ccfbb2921bd88340af5);
+        
+
+        marker_f77e6f9ecf694182adadf1d27b98bb86.bindPopup(popup_cbeabba83dd24fdd9b3c754c85970c43)
+        ;
+
+        
+    
+    
+            marker_f77e6f9ecf694182adadf1d27b98bb86.bindTooltip(
+                `<div>
+                     Provinsi    West Kalimantan
+Name: 28, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74bc380bdf1d4beb93ef4563ac1e43c2 = L.marker(
+                [-8.6529334, 117.3616476],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_4eccfcc560c54b149afe95b13c70b2c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5182da98b0e5456ca01ccd72943c1292 = $(`<div id="html_5182da98b0e5456ca01ccd72943c1292" style="width: 100.0%; height: 100.0%;">Confirmed    2 Recovered    0 Deaths       0 Name: 29, dtype: object</div>`)[0];
+            popup_4eccfcc560c54b149afe95b13c70b2c1.setContent(html_5182da98b0e5456ca01ccd72943c1292);
+        
+
+        marker_74bc380bdf1d4beb93ef4563ac1e43c2.bindPopup(popup_4eccfcc560c54b149afe95b13c70b2c1)
+        ;
+
+        
+    
+    
+            marker_74bc380bdf1d4beb93ef4563ac1e43c2.bindTooltip(
+                `<div>
+                     Provinsi    West Nusa Tenggara
+Name: 29, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61341dfe0f2744d5b8c96abc7de8e593 = L.marker(
+                [-1.3361154, 133.1747162],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_133b4315d0854ba2b05a01d61557a021 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05eabffe292a4cd8948ba447028b0ce0 = $(`<div id="html_05eabffe292a4cd8948ba447028b0ce0" style="width: 100.0%; height: 100.0%;">Confirmed    2 Recovered    0 Deaths       0 Name: 30, dtype: object</div>`)[0];
+            popup_133b4315d0854ba2b05a01d61557a021.setContent(html_05eabffe292a4cd8948ba447028b0ce0);
+        
+
+        marker_61341dfe0f2744d5b8c96abc7de8e593.bindPopup(popup_133b4315d0854ba2b05a01d61557a021)
+        ;
+
+        
+    
+    
+            marker_61341dfe0f2744d5b8c96abc7de8e593.bindTooltip(
+                `<div>
+                     Provinsi    West Papua
+Name: 30, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d36628f78c9b4826bb90fa7e73ac5b57 = L.marker(
+                [-2.8441371, 119.2320784],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_93621d6b31484ee7b184fa16daf44588 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37d83580615a42f683652f367bcbdc73 = $(`<div id="html_37d83580615a42f683652f367bcbdc73" style="width: 100.0%; height: 100.0%;">Confirmed    1 Recovered    0 Deaths       0 Name: 31, dtype: object</div>`)[0];
+            popup_93621d6b31484ee7b184fa16daf44588.setContent(html_37d83580615a42f683652f367bcbdc73);
+        
+
+        marker_d36628f78c9b4826bb90fa7e73ac5b57.bindPopup(popup_93621d6b31484ee7b184fa16daf44588)
+        ;
+
+        
+    
+    
+            marker_d36628f78c9b4826bb90fa7e73ac5b57.bindTooltip(
+                `<div>
+                     Provinsi    West Sulawesi
+Name: 31, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c1467cc76a84fd4bbcd38a9b295a73d = L.marker(
+                [-0.7399397, 100.80000509999999],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_8cf2ae8c78f44c4ea9f429fc5061bd18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e610108a5d04f1db08ead96782e8817 = $(`<div id="html_5e610108a5d04f1db08ead96782e8817" style="width: 100.0%; height: 100.0%;">Confirmed    8 Recovered    0 Deaths       0 Name: 32, dtype: object</div>`)[0];
+            popup_8cf2ae8c78f44c4ea9f429fc5061bd18.setContent(html_5e610108a5d04f1db08ead96782e8817);
+        
+
+        marker_0c1467cc76a84fd4bbcd38a9b295a73d.bindPopup(popup_8cf2ae8c78f44c4ea9f429fc5061bd18)
+        ;
+
+        
+    
+    
+            marker_0c1467cc76a84fd4bbcd38a9b295a73d.bindTooltip(
+                `<div>
+                     Provinsi    West Sumatra
+Name: 32, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3ff7d5d9c094d60a887bb84fbd74ef3 = L.marker(
+                [-7.8753849, 110.4262088],
+                {}
+            ).addTo(map_881a9613cb9d485f91a71bc1ca2ee73d);
+        
+    
+        var popup_a6c94940c1f84eab93cd7752e5d388b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2b740d7ce6d4ebc97b9949e227f5ad4 = $(`<div id="html_d2b740d7ce6d4ebc97b9949e227f5ad4" style="width: 100.0%; height: 100.0%;">Confirmed    18 Recovered     1 Deaths        2 Name: 33, dtype: object</div>`)[0];
+            popup_a6c94940c1f84eab93cd7752e5d388b6.setContent(html_d2b740d7ce6d4ebc97b9949e227f5ad4);
+        
+
+        marker_a3ff7d5d9c094d60a887bb84fbd74ef3.bindPopup(popup_a6c94940c1f84eab93cd7752e5d388b6)
+        ;
+
+        
+    
+    
+            marker_a3ff7d5d9c094d60a887bb84fbd74ef3.bindTooltip(
+                `<div>
+                     Provinsi    Yogyakarta
+Name: 33, dtype: object
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
